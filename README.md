@@ -1,4 +1,4 @@
-# Install Elasticsearch, Logstash and Kibana
+# Install Elasticsearch, Logstash dan Kibana
 
 - Menambahkan repository packages Elasticsearch untuk di install dan menginstall JDK 11 dengan beberapa perintah berikut pada server pod-elk dan pod-client:
   - `wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -`
