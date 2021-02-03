@@ -147,3 +147,7 @@ systemctl status kibana`
 - Dan hasilnya akan seperti ini
 ![Screen Shot 2021-02-03 at 20 56 29](https://user-images.githubusercontent.com/45087061/106782494-cd396280-667c-11eb-8b66-03e43160f827.png)
 
+Sekian tutorial dari saya semoga berkenan.
+Terimakasih!
+
+reckyprmn@gmail.com
