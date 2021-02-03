@@ -34,7 +34,7 @@
   - `systemctl status elasticsearch`
 ![Screen Shot 2021-01-29 at 22 40 12](https://user-images.githubusercontent.com/45087061/106773081-46cc5300-6673-11eb-9f49-b4d52b7f05b7.png)
 
-- Pastikan elasticsearch bisa diakses dengan perintah `curl ip-server:9200
+- Pastikan elasticsearch bisa diakses dengan perintah `curl ip-server:9200`
 ![Screen Shot 2021-01-29 at 22 42 51](https://user-images.githubusercontent.com/45087061/106773323-85faa400-6673-11eb-9e76-5de76a83f950.png)
 
 ### Karna bersifat private tidak bisa diakses langsung menggunakan IP Public, untuk mengaksesnya lewat browser host atau local bisa menggunakan ssh tunnel/port forwading sebagai berikut
