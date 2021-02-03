@@ -48,10 +48,10 @@
 ## Install Kibana
 
 - Install Kibana pada server pod-elk (master) dengan perintah berikut:
-  - wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
-  - sudo apt-get install apt-transport-https
-  - echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
-  - sudo apt-get update && sudo apt-get install kibana
+  - `wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -`
+  - `sudo apt-get install apt-transport-https`
+  - `echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list`
+  - `sudo apt-get update && sudo apt-get install kibana`
 ![Screen Shot 2021-02-01 at 14 45 58](https://user-images.githubusercontent.com/45087061/106774681-f524c800-6674-11eb-9f90-b4dfb7cbdf7f.png)
 
 - Ubah konfigurasi kibana seperti ini dengan `sudo su` lalu `nano /etc/kibana/kibana.yml`
