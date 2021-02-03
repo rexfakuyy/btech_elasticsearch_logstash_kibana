@@ -27,11 +27,11 @@
 ### cluster.initial_master_nodes: ["10.10.2.10"] (untuk menentukan node sebagai masternya dengan ip nodenya)
 
 - Kemudian enable dan start service elasticsearchnya, restart juga service daemonnya lalu cek status elasticsearchnya dengan perintah berikut:
-  - sudo su
-  - systemctl daemon-reload
-  - systemctl enable elasticsearch
-  - systemctl start elasticsearch
-  - systemctl status elasticsearch
+  - `sudo su`
+  - `systemctl daemon-reload`
+  - `systemctl enable elasticsearch`
+  - `systemctl start elasticsearch`
+  - `systemctl status elasticsearch`
 ![Screen Shot 2021-01-29 at 22 40 12](https://user-images.githubusercontent.com/45087061/106773081-46cc5300-6673-11eb-9f49-b4d52b7f05b7.png)
 
 - Pastikan elasticsearch bisa diakses dengan perintah `curl ip-server:9200
